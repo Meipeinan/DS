@@ -2,8 +2,14 @@
 /* CSS Document */
 /*公用*/
 .comWidth{width:1000px;margin-left:auto;margin-right:auto;}
+.headerBar{height:151px;}
 .leftArea{float:left;}
 .rightArea{float:right;}
+dl{margin:0;}
+dd{-webkit-margin-start:0px;}
+li{list-style-type:none;margin:0;}
+ul{margin:0 auto;padding-left:0px;}
+a{font-size:14px;}
 /*topBar*/
 .topBar{height:31px;background-color:#F7F7F7;line-height:31px;}
 .collection{background:url(img/icon/collection.jpg) left center no-repeat;padding-left:19px;font-weight:bold;}
@@ -22,3 +28,21 @@
 background:url(img/icon/shopicon.jpg) 10px center no-repeat;text-indent:40px;}
 .shopNum{width:27px;height:35px;boder-left:#ff9c01 solid 1px;font-size:14px;font-family:"MicrosoftYaHei","微软雅黑";color:#FFF;;height:100%;line-height:35px;
 background:url(img/icon/sj.jpg) 33px center no-repeat;text-align:right;padding-right:29px;}
+/*导航*/
+.navBox{height:35px;background-color:#1369c0;color:#FFF;}
+.shopClass h3{margin:0 auto;text-align:center;line-height:35px;}
+.shopClass{width:190px;position:relative;}
+.shopClass i{width:11px;height:7px;overflow:hidden;background:url(img/icon/down.jpg) left center no-repeat;display:inline-block;margin-left:11px;}
+.nav,.shopClass{font-family:"MicrosoftYaHei","微软雅黑";}
+.nav{line-height:35px;}
+.nav li{float:left;}
+.nav a{height:35px;display:inline-block;padding:0 35px;color:#FFF;}
+.nav .active{background-color:#4593fd;}
+/*商品列表*/
+.shopClass_item .b{font-family:"MicrosoftYaHei","微软雅黑";font-size:14px;font-weight:bold;}
+.shopClass_show a{color:#FFF;}
+.shopClass_show{background-color:#4593fd;position:absolute;left:0;top:35px;width:100%;}
+.shopClass_item{padding-top:14px;padding-left:10px;padding-bottom:14px;border-bottom:#3487f2 soild 1px;border-top:#5aa1fe solid 1px;}
+.shopClass_item dt{height:22px;background:url(img/icon/shop_sj.png)  right center no-repeat;margin-right:13px;}
+.shopClass_item .aLink{width:48px;height:20px;background:url(img/icon/alink.png) left center no-repeat;display:inline-block;
+text-align:center;line-height:20px;text-decoration:underline;}
